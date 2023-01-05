@@ -6,6 +6,15 @@ export const useLoginUser = defineStore('login-user', {
     name: 'ueno',
     mail: 'test@example.com'
   }),
+
   getters: {},
-  actions: {},
+  
+  actions: {
+    setName(name: string) {
+      this.name = name;
+    },
+    setMail(mail: string) {
+      this.mail = mail;
+    }
+  },
 })
