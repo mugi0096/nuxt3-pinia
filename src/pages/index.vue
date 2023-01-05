@@ -1,5 +1,5 @@
 <template>
   <div>
-    <NuxtWelcome />
+    <nuxt-link to="/user">ユーザーページ</nuxt-link>
   </div>
 </template>
